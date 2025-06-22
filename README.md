@@ -50,6 +50,7 @@ root@labvm:/home/devasc/labs/devnet-src/sample-app# nano sample_app.py
 escribimos lo siguiente 
 
 from flask import Flask
+
 from flask import request
 
 sample  = Flask(__name__)
