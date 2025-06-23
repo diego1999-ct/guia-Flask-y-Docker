@@ -128,3 +128,78 @@ Todas las conexiones TCP activas, tanto las que están escuchando (LISTEN) como 
 
 ![8](https://github.com/user-attachments/assets/2a6edf5a-e731-477c-8675-9ad86b1f5965)
 
+ El contenido del archivo sample_app.py siendo editado con el editor de texto nano.
+ 
+ su usa el comando nano sample_app.py para abrir o modificar el archivo
+ 
+ se edita el puerto y pasar ser de 8080 a 81818 
+ 
+![2 1](https://github.com/user-attachments/assets/858dc02f-9aa7-4748-a4c3-a8b981414346)
+
+Edición del archivo static/styke.css
+
+Archivo de estilos CSS editado con el comando nano static/style.css
+
+![2 4](https://github.com/user-attachments/assets/885e2705-371c-4c8d-8aed-6ee699027bc1)
+
+Edición de la plantilla templates/index.html 
+
+Plantilla HTML base usada con Flask
+
+Contiene un marcador {{ ip }} donde se inyecta dinámicamente la IP del cliente. También enlaza el archivo style.css para aplicar estilos.
+
+![2 3](https://github.com/user-attachments/assets/a351b7e7-c2f0-458e-92ad-b9bf7fcfad9d)
+
+Vista incial de la aplicación Flask en el navegador
+
+Vista del navegador de la IP http://127.0.0.1:8181.
+
+Muestra correctamente los textos editados y agregados anteriormente.
+
+![muestra de ip](https://github.com/user-attachments/assets/049c461c-ca3d-4b16-88fe-9d55976664a8)
+
+Verificación de Flask en terminal
+
+visualización del servidor Flask
+
+La terminal muestra Flask corriendo en el puerto 8181
+
+comandos para confirmar que flask esta funcionando correctamente 
+
+python3 sample_app.py
+
+netstat -tnlp
+
+![Comprobacion de la parte 3](https://github.com/user-attachments/assets/43885eed-a18b-4940-a35d-e12759a7cb98)
+
+Script Bash sample.sh para automatización con Docker
+
+Crea un directorio temporal.
+
+Copia los archivos de la app.
+
+Genera un Dockerfile dinámico.
+
+Expone el puerto 8181.
+
+![Codigo de el sample sh](https://github.com/user-attachments/assets/6638962b-40ba-4ea2-8496-4d0de412a469)
+
+Creación de la imagen Docker y verificación
+
+El proceso de construcción se completa exitosamente. Se muestra una nueva imagen etiquetada como rduarte o similar, lista para su ejecución.
+
+![parte 3 final cuando se crea el docker](https://github.com/user-attachments/assets/031f72c5-c6d3-4bfd-b7e7-dc759399d023)
+
+Comprobación del estado de la interfaz docker0
+
+La interfaz virtual docker0 aparece, lo que indica que Docker está instalado.
+
+![comprobaciond el docker0](https://github.com/user-attachments/assets/3418882c-170f-450a-b0b4-6671173cf941)
+
+Conclusión
+
+Este proyecto demuestra cómo desarrollar, probar y contenerizar una aplicación Flask básica. Además, se documenta el proceso completo de despliegue y verificación con herramientas comunes de red y Docker.
+
+
+
+
