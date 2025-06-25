@@ -201,5 +201,8 @@ Conclusión
 Este proyecto demuestra cómo desarrollar, probar y contenerizar una aplicación Flask básica. Además, se documenta el proceso completo de despliegue y verificación con herramientas comunes de red y Docker.
 
 
-
+Integrantes
+Diego Calderon
+Ricardo Duerte
+Raul Vergara
 
