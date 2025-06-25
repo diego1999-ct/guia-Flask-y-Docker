@@ -202,7 +202,10 @@ Este proyecto demuestra cómo desarrollar, probar y contenerizar una aplicación
 
 
 Integrantes
-Diego Calderon
-Ricardo Duerte
-Raul Vergara
+
+-Diego Calderon
+
+-Ricardo Duerte
+
+-Raul Vergara
 
